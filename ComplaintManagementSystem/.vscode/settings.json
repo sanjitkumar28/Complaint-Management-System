@@ -1,0 +1,23 @@
+{
+    "git.ignoreLimitWarning": true,
+    "fileHeaderComment.parameter": {
+        "*": {
+            "commentbegin": "/*",
+            "commentprefix": " *",
+            "commentend": " */",
+            "author": "Shubham Mishra",
+            "position": "Director, CoFouder, CTO",
+            "company": "Sterling Media Labs"
+        }
+    },
+    "fileHeaderComment.template": {
+        "*": [
+            "${commentbegin}",
+            "${commentprefix} Created on ${date}",
+            "${commentprefix}",
+            "${commentprefix} ${author}, ${position}",
+            "${commentprefix} Copyright (c) ${year} ${company}",
+            "${commentend}"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+//Stored PROCEDURE
+DELIMITER $$
+
+CREATE PROCEDURE `getAllReceipts`(IN done BOOLEAN)
+BEGIN
+    SELECT * FROM receipt;
+END$$
+
+DELIMITER ;
+
+
+//CALL getAllReceipts(true);
+
+

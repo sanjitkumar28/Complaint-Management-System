@@ -1,0 +1,15 @@
+//Stored PROCEDURE
+DELIMITER $$
+
+CREATE PROCEDURE `getAllUsers`(IN done BOOLEAN)
+BEGIN
+    SELECT * FROM users;
+END$$
+
+DELIMITER ;
+
+
+//CALL getAllUsers(true);
+
+
+//Trigger
